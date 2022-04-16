@@ -1,0 +1,30 @@
+
+$colorPrimario: blue;
+
+ul {
+    display: flex;
+    padding: 1rem;
+    li {
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: $colorPrimario;
+            &:hover {
+                color: aqua;
+            }
+        }
+        
+    }
+}
+
+@import "header";
+
+main.home {
+    section{
+        background-color: $colorPrimario;
+        article {
+            background-color: $colorPrimario;
+        }
+    }
+}
+
